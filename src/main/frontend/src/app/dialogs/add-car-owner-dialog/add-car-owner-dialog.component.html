@@ -1,0 +1,26 @@
+<form #appOwnerForm="ngForm" (ngSubmit)="onSubmit()">
+
+  <mat-label>
+    Add New Owner
+  </mat-label>
+  <br>
+  <mat-form-field class="firstName">
+    <input matInput placeholder="firstName" id="firstName" required [(ngModel)]="owner.firstName" name="firstName"
+           #firstName="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="lastName">
+    <input matInput placeholder="lastName" id="lastName" required [(ngModel)]="owner.lastName" name="lastName"
+           #lastName="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="username">
+    <input matInput placeholder="User Name" id="username" required [(ngModel)]="owner.username" name="username"
+           #username="ngModel">
+  </mat-form-field>
+  <br>
+
+  <button type="submit" class="mat-raised-button" [disabled]="!appOwnerForm.form.valid">OK</button>
+  <button type="button" mat-button
+          (click)="dialogRef.close()">Cancel</button>
+</form>

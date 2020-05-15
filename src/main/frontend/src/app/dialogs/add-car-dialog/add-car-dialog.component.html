@@ -1,0 +1,33 @@
+<form #appForm="ngForm" (ngSubmit)="onSubmit()">
+  <mat-label> {{ isEdit ? 'Edit Car' : 'Add Car' }}</mat-label>
+  <br>
+  <mat-form-field class="make">
+    <input matInput placeholder="Make" id="make" required [(ngModel)]="car.make" name="make"
+           #make="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="model">
+    <input matInput placeholder="Model" id="model" required [(ngModel)]="car.model" name="model"
+           #model="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="username">
+    <input matInput placeholder="User Name" id="username" required [(ngModel)]="car.username" name="username"
+           #username="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="engine">
+    <input matInput placeholder="Engine" id="engine" [(ngModel)]="car.engine" name="engine"
+           #engine="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="transmission">
+    <input matInput placeholder="Transmission" id="transmission" [(ngModel)]="car.transmission" name="transmission"
+           #transmission="ngModel">
+  </mat-form-field>
+  <br>
+  <br>
+  <button type="submit" class="mat-raised-button" [disabled]="!appForm.form.valid">OK</button>
+  <button type="button" mat-button
+          (click)="dialogRef.close()">Cancel</button>
+</form>

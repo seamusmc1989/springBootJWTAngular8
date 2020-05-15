@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="232f8599-338b-4991-b30a-8981f571670c" name="Default" comment="file clean up">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/angularBootRef/springBootPortfolio/CarUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/angularBootRef/springBootPortfolio/SimpleTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bCvvIWW5oJQvV98LViKNX5se2F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="applic&#9;FILE&#9;file:///Users/seamusmccarthy/Documents/GitHub/repo2020/seamusmc PRIVATE repo/springAngularMaterialJwt/src/main/resources/application.properties" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/frontend/src/app/child1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/src/main/frontend/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/frontend/src/app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.angularBootRef.springBootPortfolio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/frontend/src/app/child1" />
+      <recent name="$PROJECT_DIR$/src/main/frontend/src/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProcedureDocApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarControllerRestSimpleHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBootPortfolio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angularBootRef.springBootPortfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angularBootRef.springBootPortfolio" />
+      <option name="MAIN_CLASS_NAME" value="com.angularBootRef.springBootPortfolio.CarControllerRestSimpleHello" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarControllerRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBootPortfolio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angularBootRef.springBootPortfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angularBootRef.springBootPortfolio" />
+      <option name="MAIN_CLASS_NAME" value="com.angularBootRef.springBootPortfolio.CarControllerRestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBootPortfolio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angularBootRef.springBootPortfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angularBootRef.springBootPortfolio" />
+      <option name="MAIN_CLASS_NAME" value="com.angularBootRef.springBootPortfolio.CarIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBootPortfolio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angularBootRef.springBootPortfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angularBootRef.springBootPortfolio" />
+      <option name="MAIN_CLASS_NAME" value="com.angularBootRef.springBootPortfolio.CarUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBootPortfolio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angularBootRef.springBootPortfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angularBootRef.springBootPortfolio" />
+      <option name="MAIN_CLASS_NAME" value="com.angularBootRef.springBootPortfolio.SimpleTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcedureDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBootPortfolio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angularBootRef.springBootPortfolio.SpringBootPortfolioApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CarControllerRestTest" />
+      <item itemvalue="JUnit.SimpleTest2" />
+      <item itemvalue="JUnit.CarControllerRestSimpleHello" />
+      <item itemvalue="JUnit.CarIntegrationTest" />
+      <item itemvalue="JUnit.CarUnitTest" />
+      <item itemvalue="Spring Boot.ProcedureDocApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarUnitTest" />
+        <item itemvalue="JUnit.CarIntegrationTest" />
+        <item itemvalue="JUnit.CarControllerRestTest" />
+        <item itemvalue="JUnit.CarControllerRestSimpleHello" />
+        <item itemvalue="JUnit.SimpleTest2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="232f8599-338b-4991-b30a-8981f571670c" name="Default" comment="" />
+      <created>1587059110738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587059110738</updated>
+      <workItem from="1587059114204" duration="2646000" />
+      <workItem from="1588100946167" duration="616000" />
+      <workItem from="1588149125782" duration="574000" />
+      <workItem from="1588149717850" duration="115000" />
+      <workItem from="1588149848496" duration="3959000" />
+      <workItem from="1588612188078" duration="2722000" />
+      <workItem from="1588666095226" duration="543000" />
+      <workItem from="1588666894729" duration="31082000" />
+      <workItem from="1588778499147" duration="22543000" />
+      <workItem from="1588920553851" duration="12788000" />
+      <workItem from="1589118858193" duration="8742000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixed up the jwt token and roles">
+      <created>1588681043865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588681043865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding in unit, integration and junit tests">
+      <created>1588788739366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588788739366</updated>
+    </task>
+    <task id="LOCAL-00003" summary="angular modules seperated out, manyToOne relationship and oneToOne added">
+      <created>1588956603232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588956603232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="file clean up">
+      <created>1588958891027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588958891027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="fixed up the jwt token and roles" />
+    <MESSAGE value="adding in unit, integration and junit tests" />
+    <MESSAGE value="angular modules seperated out, manyToOne relationship and oneToOne added" />
+    <MESSAGE value="file clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="file clean up" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2232" y="176" key="#Plugins" timestamp="1588149831915">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2232" y="176" key="#Plugins/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149831915" />
+    <state x="2416" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1588150550105">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2416" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588150550105" />
+    <state x="2077" y="128" width="1200" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589121994080">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="35" y="316" width="1200" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.22.1920.1058/0.22.1680.963@0.22.1680.963" timestamp="1589121334104" />
+    <state x="2077" y="128" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589121994080" />
+    <state x="1780" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588840343845">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1780" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588840343845" />
+    <state x="2451" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1588683174138">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2451" y="243" key="#com.intellij.ide.util.MemberChooser/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588683174138" />
+    <state x="2430" y="326" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588681467463">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2430" y="326" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681467463" />
+    <state x="1680" y="22" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588681119652">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1680" y="22" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681119652" />
+    <state x="2087" y="105" key="CommitChangelistDialog2" timestamp="1589544807735">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2087" y="85" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588788739049" />
+    <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958890658" />
+    <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681043575" />
+    <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544807735" />
+    <state width="1722" height="287" key="GridCell.Tab.0.bottom" timestamp="1589544720352">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.0.bottom/0.22.1280.713@0.22.1280.713" timestamp="1588692155273" />
+    <state width="1878" height="355" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533464" />
+    <state width="1732" height="319" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718340" />
+    <state width="1707" height="286" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
+    <state width="1707" height="286" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657927" />
+    <state width="1405" height="287" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434234" />
+    <state width="1732" height="394" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515992" />
+    <state width="1405" height="407" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758596" />
+    <state width="1722" height="287" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720352" />
+    <state width="1722" height="287" key="GridCell.Tab.0.center" timestamp="1589544720351">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.0.center/0.22.1280.713@0.22.1280.713" timestamp="1588692155272" />
+    <state width="1878" height="355" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533462" />
+    <state width="1732" height="319" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718339" />
+    <state width="1707" height="286" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
+    <state width="1707" height="286" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657926" />
+    <state width="1405" height="287" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434233" />
+    <state width="1732" height="394" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515991" />
+    <state width="1405" height="407" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758595" />
+    <state width="1722" height="287" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720351" />
+    <state width="1722" height="287" key="GridCell.Tab.0.left" timestamp="1589544720350">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.0.left/0.22.1280.713@0.22.1280.713" timestamp="1588692155272" />
+    <state width="1878" height="355" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533461" />
+    <state width="1732" height="319" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718338" />
+    <state width="1707" height="286" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056064" />
+    <state width="1707" height="286" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657925" />
+    <state width="1405" height="287" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.954@1680.22.1920.1058" timestamp="1589452434222" />
+    <state width="1732" height="394" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515990" />
+    <state width="1405" height="407" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758594" />
+    <state width="1722" height="287" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720350" />
+    <state width="1722" height="287" key="GridCell.Tab.0.right" timestamp="1589544720352">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.0.right/0.22.1280.713@0.22.1280.713" timestamp="1588692155273" />
+    <state width="1878" height="355" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533463" />
+    <state width="1732" height="319" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718339" />
+    <state width="1707" height="286" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
+    <state width="1707" height="286" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657926" />
+    <state width="1405" height="287" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434233" />
+    <state width="1732" height="394" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515991" />
+    <state width="1405" height="407" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758596" />
+    <state width="1722" height="287" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720352" />
+    <state width="1722" height="287" key="GridCell.Tab.1.bottom" timestamp="1589544720354">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.1.bottom/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
+    <state width="1878" height="355" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533468" />
+    <state width="1732" height="319" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718342" />
+    <state width="1707" height="286" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
+    <state width="1707" height="227" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113700" />
+    <state width="1732" height="394" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515995" />
+    <state width="1405" height="407" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758598" />
+    <state width="1722" height="287" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
+    <state width="1722" height="287" key="GridCell.Tab.1.center" timestamp="1589544720353">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.1.center/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
+    <state width="1878" height="355" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533466" />
+    <state width="1732" height="319" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718341" />
+    <state width="1707" height="286" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
+    <state width="1707" height="227" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113698" />
+    <state width="1732" height="394" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515993" />
+    <state width="1405" height="407" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
+    <state width="1722" height="287" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720353" />
+    <state width="1722" height="287" key="GridCell.Tab.1.left" timestamp="1589544720353">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.1.left/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
+    <state width="1878" height="355" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533465" />
+    <state width="1732" height="319" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718340" />
+    <state width="1707" height="286" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056038" />
+    <state width="1707" height="227" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113698" />
+    <state width="1732" height="394" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515993" />
+    <state width="1405" height="407" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
+    <state width="1722" height="287" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720353" />
+    <state width="1722" height="287" key="GridCell.Tab.1.right" timestamp="1589544720354">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1238" height="299" key="GridCell.Tab.1.right/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
+    <state width="1878" height="355" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533467" />
+    <state width="1732" height="319" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718341" />
+    <state width="1707" height="286" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
+    <state width="1707" height="227" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113699" />
+    <state width="1732" height="394" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515994" />
+    <state width="1405" height="407" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
+    <state width="1722" height="287" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
+    <state width="1722" height="287" key="GridCell.Tab.2.bottom" timestamp="1589544720356">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1722" height="287" key="GridCell.Tab.2.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720356" />
+    <state width="1722" height="287" key="GridCell.Tab.2.center" timestamp="1589544720355">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1722" height="287" key="GridCell.Tab.2.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720355" />
+    <state width="1722" height="287" key="GridCell.Tab.2.left" timestamp="1589544720354">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1722" height="287" key="GridCell.Tab.2.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
+    <state width="1722" height="287" key="GridCell.Tab.2.right" timestamp="1589544720355">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1722" height="287" key="GridCell.Tab.2.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720355" />
+    <state x="228" y="378" key="IDE.errors.dialog" timestamp="1589441013883">
+      <screen x="0" y="22" width="1680" height="973" />
+    </state>
+    <state x="228" y="378" key="IDE.errors.dialog/1680.22.1920.1058/0.22.1680.973@1680.22.1920.1058" timestamp="1589441013883" />
+    <state x="2055" y="96" width="1175" height="907" key="SettingsEditor" timestamp="1589122013242">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2055" y="96" width="1175" height="907" key="SettingsEditor/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588154036620" />
+    <state x="2055" y="96" key="SettingsEditor/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589122013242" />
+    <state x="2238" y="269" key="Vcs.Push.Dialog.v2" timestamp="1588958894378">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2238" y="252" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588788742586" />
+    <state x="2238" y="269" key="Vcs.Push.Dialog.v2/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958894378" />
+    <state x="2238" y="269" key="Vcs.Push.Dialog.v2/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681061668" />
+    <state x="1818" y="123" width="1641" height="813" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588703886158">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1818" y="123" width="1641" height="813" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588703886158" />
+    <state x="2332" y="259" width="652" height="538" key="find.popup" timestamp="1589122528391">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="435" y="182" width="608" height="486" key="find.popup/0.22.1280.713@0.22.1280.713" timestamp="1588692883507" />
+    <state x="2333" y="242" width="912" height="737" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588860229278" />
+    <state x="2332" y="259" width="652" height="538" key="find.popup/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1588667397710" />
+    <state x="2333" y="259" width="912" height="722" key="find.popup/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958851251" />
+    <state x="2332" y="259" width="600" height="538" key="find.popup/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149528880" />
+    <state x="2332" y="259" width="652" height="538" key="find.popup/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589122528391" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1589124927902">
+      <screen x="1680" y="22" width="1920" height="1058" />
+    </state>
+    <state x="2297" y="229" width="670" height="691" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588883222481" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109007919" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958734280" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588153882822" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589124927902" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/procedureDoc$CarUnitTest.ic" NAME="CarUnitTest Coverage Results" MODIFIED="1588683685310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.angularBootRef.springBootPortfolio.*</FILTER>
+    </SUITE>
+  </component>
+</project>

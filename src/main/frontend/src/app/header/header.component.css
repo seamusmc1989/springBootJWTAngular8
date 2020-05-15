@@ -1,0 +1,12 @@
+.header-table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.header-table-row { display:table-row; }
+
+.header-table-cell {
+  display:table-cell;
+  padding:5px;
+}

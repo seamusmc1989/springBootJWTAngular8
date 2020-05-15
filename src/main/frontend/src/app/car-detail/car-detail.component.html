@@ -1,0 +1,83 @@
+<app-header></app-header>
+
+<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+
+  <div fxFlex fxFlexOffset="50px">
+
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Car Details</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+
+        <div *ngIf="car">
+          <h2></h2>
+          <b>Id:</b> {{car.id}} <br>
+          <b>Make:  </b>{{car.make}}  <br>
+          <b>Model: </b> {{car.model}}  <br>
+          <b>Engine: </b> {{car.engine}}  <br>
+          <b>Transmission: </b> {{car.transmission}} <br>
+          <p>&nbsp;</p>
+        </div>
+
+      </mat-card-content>
+      <mat-card-actions>
+        <h2>Actions the user can commit</h2>
+        <button mat-raised-button (click)="addCarOwner()" color="primary">Add Car Owner</button>
+      </mat-card-actions>
+
+    </mat-card>
+
+  </div>
+</div>
+
+<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+
+  <div fxFlex fxFlexOffset="50px">
+
+    <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Owner Details</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-table #table [dataSource]="dataSourceOwner">
+
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef> Id</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.id}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="firstName">
+        <mat-header-cell *matHeaderCellDef> firstName</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.firstName}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="lastName">
+        <mat-header-cell *matHeaderCellDef> lastName</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.lastName}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="username">
+        <mat-header-cell *matHeaderCellDef> username</mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.username}}</mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumnsOwner"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumnsOwner;" (click)="onRowClicked(row)"></mat-row>
+    </mat-table>
+    </mat-card-content>
+    </mat-card>
+
+  </div>
+
+</div>

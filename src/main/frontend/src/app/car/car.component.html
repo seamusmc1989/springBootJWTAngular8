@@ -1,0 +1,84 @@
+<app-header (newCarEvent)="newCarEventHander($event)" ></app-header>
+
+<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+
+  <div fxFlex fxFlexOffset="50px">
+
+    <div class="example-container mat-elevation-z8">
+      <mat-table #table [dataSource]="dataSource">
+
+        <ng-container matColumnDef="id">
+          <mat-header-cell *matHeaderCellDef> Id</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.id}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="make">
+          <mat-header-cell *matHeaderCellDef> Make</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.make}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="model">
+          <mat-header-cell *matHeaderCellDef> Model</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.model}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="transmission">
+          <mat-header-cell *matHeaderCellDef> Transmission</mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.transmission}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+          <mat-header-cell *matHeaderCellDef> Action</mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            <button mat-raised-button color="primary" (click)="editCar(element)">Edit</button>
+            <button mat-raised-button color="primary" (click)="viewCar(element.id)">View</button>
+            <button mat-raised-button color="primary" (click)="deleteCar(element.id)">Delete</button>
+          </mat-cell>
+        </ng-container>
+
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;" (click)="onRowClicked(row)"></mat-row>
+      </mat-table>
+    </div>
+
+
+  </div>
+
+
+</div>
+
+<!--<child1-->
+<!--  (nameEvent)="nameEventHander($event)"-->
+<!--  (phoneEvent)="phoneEventHander($event)"></child1>-->
+
+
+
+<!--TODO Should I remove this logic....-->
+<!--<div *ngIf="carOwners" class="example-container mat-elevation-z8">-->
+
+<!--All the owners in a dropdown here...-->
+  <!--<div *ngFor="let row of carOwners">-->
+    <!--{{row.carId}} <br>-->
+    <!--{{row.firstName}} <br>-->
+    <!--{{row.lastName}} <br>c-->
+    <!--{{row.username}} <br>-->
+  <!--</div>-->
+
+  <!--<mat-form-field>-->
+    <!--<mat-select placeholder="Car Owner" name="carOwner">-->
+      <!--<mat-option *ngFor="let item of carOwners" [value]="item.id">-->
+        <!--{{item.firstName}}-->
+      <!--</mat-option>-->
+    <!--</mat-select>-->
+  <!--</mat-form-field>-->
+
+  <!--<button mat-raised-button (click)="findCarsByOwner()">Find Cars By Owner</button>-->
+
+  <!--Example display of the cars from the api call.-->
+<!--</div>-->

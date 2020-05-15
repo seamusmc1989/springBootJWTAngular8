@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span><img src="./assets/logo.png"></span>
+    <span class="example-fill-remaining-space"></span>
+    <span class="example-spacer"></span>
+    <span style="width: 80%"></span>
+    <div class="header-table">
+      <div class="header-table-row">
+        <div *ngIf="isShowAddCar" class="header-table-cell">
+          <button mat-raised-button (click)="openAddNewCarDialog()">Add Car</button>
+        </div>
+        <div class="header-table-cell"><span>Welcome {{username}}</span></div>
+        <div class="header-table-cell"><button mat-raised-button (click)="home()" >Home</button></div>
+        <div class="header-table-cell"><button mat-raised-button (click)="logout()">Logout</button></div>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
