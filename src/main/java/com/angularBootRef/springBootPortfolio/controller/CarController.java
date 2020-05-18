@@ -5,7 +5,6 @@ import com.angularBootRef.springBootPortfolio.converter.CarDtoConverter;
 import com.angularBootRef.springBootPortfolio.domain.Car;
 import com.angularBootRef.springBootPortfolio.dto.CarDto;
 import com.angularBootRef.springBootPortfolio.service.CarService;
-import com.angularBootRef.springBootPortfolio.service.CarTestService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -21,8 +20,6 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 public class CarController {
-
-	private CarTestService carTestService;
 
 	private CarService carService;
 
@@ -54,10 +51,11 @@ public class CarController {
 
 	@GetMapping("/findById/{carId}")
 	public CarDto findCarPathById(@PathVariable Long carId) {
-//		log.info("carId fetched is: " + carId);
 
-		final Car result = this.carService.findById(carId).get();
-//		log.info("result.  logger info for argument " + result.toString() );
+		log.info("logger info for argument ");
+
+		final Car result = carService.findById(carId).get();
+		log.info("tester.  logger info for argument " + result.getId());
 		return this.carDtoConverter.convertToDto(result);
 	}
 

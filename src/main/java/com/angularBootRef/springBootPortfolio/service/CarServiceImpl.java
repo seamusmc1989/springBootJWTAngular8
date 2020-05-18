@@ -17,7 +17,7 @@ import java.util.Optional;
 @Transactional
 public class CarServiceImpl implements CarService {
 
-	@Autowired
+//	@Autowired
 	private CarRepository carRepository;
 
 	public String hello() {

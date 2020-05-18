@@ -2,9 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="232f8599-338b-4991-b30a-8981f571670c" name="Default" comment="file clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBootPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springBootPortfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/controller/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/repository/UserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/service/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/service/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angularBootRef/springBootPortfolio/service/CarTestService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/angularBootRef/springBootPortfolio/CarUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/angularBootRef/springBootPortfolio/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/SpringBootPortfolioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/SpringBootPortfolioApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/CORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/CORSFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/configuration/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/HelloResource$Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/HelloResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/OwnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/OwnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/CarDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/CarDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/IObjectDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/IObjectDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/OwnerDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/OwnerDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/UserDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/converter/UserDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/AuditModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/AuditModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/AuthToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/AuthToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/UserRoleEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/domain/UserRoleEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/CarDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/CarDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/IObjectDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/IObjectDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/OwnerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/OwnerDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/CarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/CarRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/OwnerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/OwnerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/UserRoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/repository/UserRoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/CarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/CarServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/CarTestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/OwnerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/OwnerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/OwnerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/OwnerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/utils/DateTimeFormatUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angularBootRef/springBootPortfolio/utils/DateTimeFormatUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springBootPortfolio.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarControllerRestSimpleHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarControllerRestSimpleHello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarControllerRestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarControllerRestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/CarUnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/SimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/SpringBootPortfolioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/angularBootRef/springBootPortfolio/SpringBootPortfolioApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/H2JpaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/H2JpaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JsonMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/JsonMapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JsonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/JsonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/LocalDateTimeDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/LocalDateTimeDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/LocalDateTimeSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/LocalDateTimeSerializer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +181,7 @@
     <property name="SearchEverywhereHistoryKey" value="applic&#9;FILE&#9;file:///Users/seamusmccarthy/Documents/GitHub/repo2020/seamusmc PRIVATE repo/springAngularMaterialJwt/src/main/resources/application.properties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/frontend/src/app/child1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -158,6 +301,7 @@
     <configuration name="ProcedureDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springBootPortfolio" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.angularBootRef.springBootPortfolio.SpringBootPortfolioApplication" />
+      <option name="VM_PARAMETERS" value="-noverify" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,6 +355,9 @@
       <workItem from="1588778499147" duration="22543000" />
       <workItem from="1588920553851" duration="12788000" />
       <workItem from="1589118858193" duration="8742000" />
+      <workItem from="1589546014911" duration="1169000" />
+      <workItem from="1589715298494" duration="27000" />
+      <workItem from="1589794121011" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="fixed up the jwt token and roles">
       <created>1588681043865</created>
@@ -264,9 +411,10 @@
       <screen x="1680" y="22" width="1920" height="1058" />
     </state>
     <state x="2416" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588150550105" />
-    <state x="2077" y="128" width="1200" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589121994080">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state x="2077" y="108" width="1200" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589804280188">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state x="2077" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589804280188" />
     <state x="35" y="316" width="1200" height="572" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.22.1920.1058/0.22.1680.963@0.22.1680.963" timestamp="1589121334104" />
     <state x="2077" y="128" width="1180" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589121994080" />
     <state x="1780" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588840343845">
@@ -292,121 +440,126 @@
     <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958890658" />
     <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681043575" />
     <state x="2087" y="105" key="CommitChangelistDialog2/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544807735" />
-    <state width="1722" height="287" key="GridCell.Tab.0.bottom" timestamp="1589544720352">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1878" height="493" key="GridCell.Tab.0.bottom" timestamp="1589805328021">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.0.bottom/0.22.1280.713@0.22.1280.713" timestamp="1588692155273" />
-    <state width="1878" height="355" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533464" />
+    <state width="1878" height="493" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328021" />
     <state width="1732" height="319" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718340" />
     <state width="1707" height="286" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
     <state width="1707" height="286" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657927" />
     <state width="1405" height="287" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434234" />
     <state width="1732" height="394" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515992" />
     <state width="1405" height="407" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758596" />
-    <state width="1722" height="287" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720352" />
-    <state width="1722" height="287" key="GridCell.Tab.0.center" timestamp="1589544720351">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.0.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517975" />
+    <state width="1878" height="493" key="GridCell.Tab.0.center" timestamp="1589805328019">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.0.center/0.22.1280.713@0.22.1280.713" timestamp="1588692155272" />
-    <state width="1878" height="355" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533462" />
+    <state width="1878" height="493" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328019" />
     <state width="1732" height="319" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718339" />
     <state width="1707" height="286" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
     <state width="1707" height="286" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657926" />
     <state width="1405" height="287" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434233" />
     <state width="1732" height="394" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515991" />
     <state width="1405" height="407" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758595" />
-    <state width="1722" height="287" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720351" />
-    <state width="1722" height="287" key="GridCell.Tab.0.left" timestamp="1589544720350">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.0.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517974" />
+    <state width="1878" height="493" key="GridCell.Tab.0.left" timestamp="1589805328018">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.0.left/0.22.1280.713@0.22.1280.713" timestamp="1588692155272" />
-    <state width="1878" height="355" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533461" />
+    <state width="1878" height="493" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328018" />
     <state width="1732" height="319" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718338" />
     <state width="1707" height="286" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056064" />
     <state width="1707" height="286" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657925" />
     <state width="1405" height="287" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.954@1680.22.1920.1058" timestamp="1589452434222" />
     <state width="1732" height="394" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515990" />
     <state width="1405" height="407" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758594" />
-    <state width="1722" height="287" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720350" />
-    <state width="1722" height="287" key="GridCell.Tab.0.right" timestamp="1589544720352">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.0.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517973" />
+    <state width="1878" height="493" key="GridCell.Tab.0.right" timestamp="1589805328020">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.0.right/0.22.1280.713@0.22.1280.713" timestamp="1588692155273" />
-    <state width="1878" height="355" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533463" />
+    <state width="1878" height="493" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328020" />
     <state width="1732" height="319" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718339" />
     <state width="1707" height="286" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056065" />
     <state width="1707" height="286" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958657926" />
     <state width="1405" height="287" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.952@1680.22.1920.1058" timestamp="1589452434233" />
     <state width="1732" height="394" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515991" />
     <state width="1405" height="407" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758596" />
-    <state width="1722" height="287" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720352" />
-    <state width="1722" height="287" key="GridCell.Tab.1.bottom" timestamp="1589544720354">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.0.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517975" />
+    <state width="1878" height="493" key="GridCell.Tab.1.bottom" timestamp="1589805328024">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.1.bottom/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
-    <state width="1878" height="355" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533468" />
+    <state width="1878" height="493" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328024" />
     <state width="1732" height="319" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718342" />
     <state width="1707" height="286" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
     <state width="1707" height="227" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113700" />
     <state width="1732" height="394" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515995" />
     <state width="1405" height="407" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758598" />
-    <state width="1722" height="287" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
-    <state width="1722" height="287" key="GridCell.Tab.1.center" timestamp="1589544720353">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.1.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517978" />
+    <state width="1878" height="493" key="GridCell.Tab.1.center" timestamp="1589805328022">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.1.center/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
-    <state width="1878" height="355" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533466" />
+    <state width="1878" height="493" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328022" />
     <state width="1732" height="319" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718341" />
     <state width="1707" height="286" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
     <state width="1707" height="227" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113698" />
     <state width="1732" height="394" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515993" />
     <state width="1405" height="407" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
-    <state width="1722" height="287" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720353" />
-    <state width="1722" height="287" key="GridCell.Tab.1.left" timestamp="1589544720353">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.1.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517977" />
+    <state width="1878" height="493" key="GridCell.Tab.1.left" timestamp="1589805328022">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.1.left/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
-    <state width="1878" height="355" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533465" />
+    <state width="1878" height="493" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328022" />
     <state width="1732" height="319" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718340" />
     <state width="1707" height="286" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056038" />
     <state width="1707" height="227" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113698" />
     <state width="1732" height="394" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515993" />
     <state width="1405" height="407" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
-    <state width="1722" height="287" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720353" />
-    <state width="1722" height="287" key="GridCell.Tab.1.right" timestamp="1589544720354">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.1.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517976" />
+    <state width="1878" height="493" key="GridCell.Tab.1.right" timestamp="1589805328023">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="299" key="GridCell.Tab.1.right/0.22.1280.713@0.22.1280.713" timestamp="1588692155274" />
-    <state width="1878" height="355" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588870533467" />
+    <state width="1878" height="493" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805328023" />
     <state width="1732" height="319" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.943@1680.22.1920.1058" timestamp="1588613718341" />
     <state width="1707" height="286" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109056039" />
     <state width="1707" height="227" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588957113699" />
     <state width="1732" height="394" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149515994" />
     <state width="1405" height="407" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589135758597" />
-    <state width="1722" height="287" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
-    <state width="1722" height="287" key="GridCell.Tab.2.bottom" timestamp="1589544720356">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1722" height="270" key="GridCell.Tab.1.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546517977" />
+    <state width="1878" height="366" key="GridCell.Tab.2.bottom" timestamp="1589805127397">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="366" key="GridCell.Tab.2.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805127397" />
     <state width="1722" height="287" key="GridCell.Tab.2.bottom/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720356" />
-    <state width="1722" height="287" key="GridCell.Tab.2.center" timestamp="1589544720355">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1878" height="366" key="GridCell.Tab.2.center" timestamp="1589805127396">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="366" key="GridCell.Tab.2.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805127396" />
     <state width="1722" height="287" key="GridCell.Tab.2.center/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720355" />
-    <state width="1722" height="287" key="GridCell.Tab.2.left" timestamp="1589544720354">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1878" height="366" key="GridCell.Tab.2.left" timestamp="1589805127395">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="366" key="GridCell.Tab.2.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805127395" />
     <state width="1722" height="287" key="GridCell.Tab.2.left/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720354" />
-    <state width="1722" height="287" key="GridCell.Tab.2.right" timestamp="1589544720355">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state width="1878" height="366" key="GridCell.Tab.2.right" timestamp="1589805127397">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="366" key="GridCell.Tab.2.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805127397" />
     <state width="1722" height="287" key="GridCell.Tab.2.right/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589544720355" />
     <state x="228" y="378" key="IDE.errors.dialog" timestamp="1589441013883">
       <screen x="0" y="22" width="1680" height="973" />
     </state>
     <state x="228" y="378" key="IDE.errors.dialog/1680.22.1920.1058/0.22.1680.973@1680.22.1920.1058" timestamp="1589441013883" />
-    <state x="2055" y="96" width="1175" height="907" key="SettingsEditor" timestamp="1589122013242">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state x="2055" y="76" width="1175" height="907" key="SettingsEditor" timestamp="1589798163120">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state x="2055" y="76" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589798163120" />
     <state x="2055" y="96" width="1175" height="907" key="SettingsEditor/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588154036620" />
     <state x="2055" y="96" key="SettingsEditor/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589122013242" />
     <state x="2238" y="269" key="Vcs.Push.Dialog.v2" timestamp="1588958894378">
@@ -415,9 +568,10 @@
     <state x="2238" y="252" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588788742586" />
     <state x="2238" y="269" key="Vcs.Push.Dialog.v2/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958894378" />
     <state x="2238" y="269" key="Vcs.Push.Dialog.v2/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588681061668" />
-    <state x="1818" y="123" width="1641" height="813" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588703886158">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state x="1818" y="103" width="1641" height="830" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589806414798">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state x="1818" y="103" width="1641" height="830" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589806414798" />
     <state x="1818" y="123" width="1641" height="813" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1588703886158" />
     <state x="2332" y="259" width="652" height="538" key="find.popup" timestamp="1589122528391">
       <screen x="1680" y="22" width="1920" height="1058" />
@@ -428,14 +582,15 @@
     <state x="2333" y="259" width="912" height="722" key="find.popup/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958851251" />
     <state x="2332" y="259" width="600" height="538" key="find.popup/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588149528880" />
     <state x="2332" y="259" width="652" height="538" key="find.popup/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589122528391" />
-    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1589124927902">
-      <screen x="1680" y="22" width="1920" height="1058" />
+    <state x="2297" y="229" width="670" height="691" key="search.everywhere.popup" timestamp="1589805091826">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2297" y="229" width="670" height="691" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588883222481" />
+    <state x="2297" y="229" width="670" height="691" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1589805091826" />
     <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.946@1680.22.1920.1058" timestamp="1589109007919" />
     <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.949@1680.22.1920.1058" timestamp="1588958734280" />
     <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.955@1680.22.1920.1058" timestamp="1588153882822" />
     <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.963@1680.22.1920.1058" timestamp="1589124927902" />
+    <state x="2297" y="246" width="670" height="676" key="search.everywhere.popup/1680.22.1920.1058/0.22.1680.967@1680.22.1920.1058" timestamp="1589546203889" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/procedureDoc$CarUnitTest.ic" NAME="CarUnitTest Coverage Results" MODIFIED="1588683685310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
