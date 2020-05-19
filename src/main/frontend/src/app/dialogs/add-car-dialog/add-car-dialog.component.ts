@@ -1,9 +1,8 @@
-import {MatDialogRef} from "@angular/material";
 import {Component, EventEmitter, Inject, OnInit, Output} from "@angular/core";
 import {Car} from "../../car/car.model";
 import {CarService} from "../../car/car.service";
 import {CarImpl} from "../../car/car-impl.model";
-import {MAT_DIALOG_DATA} from "@angular/material/dialog";
+import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-add-car-dialog',

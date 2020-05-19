@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {MatTableDataSource} from '@angular/material';
 import {CarService} from "./car.service";
 import {Car} from "./car.model";
 
@@ -8,6 +7,7 @@ import {Owner} from "../dialogs/add-car-owner-dialog/owner.model";
 import {TokenStorage} from '../core/token.storage';
 import {Router} from '@angular/router';
 import {DialogsService} from "../dialogs/dialogs.service";
+import {MatTableDataSource} from "@angular/material/table";
 
 @Component({
   selector: 'app-car',

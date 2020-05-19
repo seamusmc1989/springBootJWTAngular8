@@ -20,16 +20,15 @@ import {HeaderComponent} from "./header/header.component";
 import {CarDetailService} from "./car-detail/car-detail.service";
 import {CarDetailComponent} from "./car-detail/car-detail.component";
 import {OwnerService} from "./dialogs/add-car-owner-dialog/owner.service";
-import {
-  MatButtonModule,
-  MatDialogModule,
-  MatFormFieldModule, MatIconModule,
-  MatInputModule, MatProgressBarModule,
-  MatToolbarModule
-} from "@angular/material";
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {Child1Component} from "./child1/child1.component";
-
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {MatInputModule} from "@angular/material/input";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

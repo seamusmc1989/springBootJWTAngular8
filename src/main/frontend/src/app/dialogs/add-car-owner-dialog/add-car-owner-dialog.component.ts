@@ -1,8 +1,8 @@
-import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material";
 import {Component, Inject, OnInit} from "@angular/core";
 import {Owner} from "./owner.model";
 import {OwnerImpl} from "./owner-impl.model";
 import {OwnerService} from "./owner.service";
+import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-add-car-owner-dialog',

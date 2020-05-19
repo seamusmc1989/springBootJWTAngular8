@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
-import {MatDialog} from '@angular/material';
 import {AuthService} from '../core/auth.service';
 import {TokenStorage} from '../core/token.storage';
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-login',

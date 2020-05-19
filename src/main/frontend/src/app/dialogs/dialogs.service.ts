@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import {MatDialogRef, MatDialog, MatDialogConfig} from '@angular/material';
-import { Observable } from "rxjs/Observable";
 import {Car} from "../car/car.model";
 import {AddCarDialogComponent} from "./add-car-dialog/add-car-dialog.component";
 import {Owner} from "./add-car-owner-dialog/owner.model";
 import {AddCarOwnerDialogComponent} from "./add-car-owner-dialog/add-car-owner-dialog.component";
+import {MatDialog, MatDialogRef} from "@angular/material/dialog";
+import {Observable} from "rxjs";
 
 
 @Injectable()

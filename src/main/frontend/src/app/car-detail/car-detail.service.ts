@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {Observable} from 'rxjs/Observable';
 import {TokenStorage} from "../core/token.storage";
 import {Car} from "../car/car.model";
+import {Observable} from "rxjs";
 
 
 @Injectable()
@@ -23,3 +23,5 @@ export class CarDetailService {
   }
 
 }
+
+

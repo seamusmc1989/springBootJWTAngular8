@@ -4,10 +4,11 @@ import {Router} from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
 import {TokenStorage} from '../core/token.storage';
 import {DialogsService} from "../dialogs/dialogs.service";
-import {MatDialog, MatTableDataSource} from "@angular/material";
 import {Car} from "../car/car.model";
 import {Owner} from "../dialogs/add-car-owner-dialog/owner.model";
 import {OwnerService} from "../dialogs/add-car-owner-dialog/owner.service";
+import {MatDialog} from "@angular/material/dialog";
+import {MatTableDataSource} from "@angular/material/table";
 
 @Component({
   selector: 'app-car-detail',

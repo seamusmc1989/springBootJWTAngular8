@@ -1,10 +1,13 @@
 import {NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {
-  MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatInputModule, MatProgressBarModule,
-  MatTableModule,
-  MatToolbarModule
-} from '@angular/material';
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
+import {MatCardModule} from "@angular/material/card";
+import {MatInputModule} from "@angular/material/input";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatTableModule} from "@angular/material/table";
+import {MatIconModule} from "@angular/material/icon";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
 
 @NgModule({
   imports: [CommonModule, MatToolbarModule, MatButtonModule, MatCardModule, MatInputModule, MatDialogModule, MatTableModule, MatIconModule, MatProgressBarModule],

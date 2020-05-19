@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DialogsService } from './dialogs.service';
-import {
-  MatButtonModule, MatDialogModule, MatFormFieldModule, MatIcon, MatIconModule, MatInputModule,
-  MatProgressBarModule, MatToolbarModule
-} from '@angular/material';
 import { FormsModule } from "@angular/forms";
 import { AddCarDialogComponent} from "./add-car-dialog/add-car-dialog.component";
 import { AddCarOwnerDialogComponent} from "./add-car-owner-dialog/add-car-owner-dialog.component";
 import { CustomMaterialModule } from "../core/material.module";
+import {MatButtonModule} from "@angular/material/button";
+import {MatInputModule} from "@angular/material/input";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatIconModule} from "@angular/material/icon";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   imports: [
