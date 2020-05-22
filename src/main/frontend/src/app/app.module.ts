@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
@@ -29,6 +30,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatToolbarModule} from "@angular/material/toolbar";
+import {ReviewService} from "./dialogs/add-car-review-dialog/review.service";
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
@@ -62,7 +64,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
   ],
   entryComponents: [ErrorDialogComponent],
   providers: [ErrorDialogComponent, UserService, AuthService, TokenStorage,
-    CarService, CarDetailService, OwnerService,
+    CarService, CarDetailService, OwnerService, ReviewService,
     {provide: HTTP_INTERCEPTORS,
     useClass: Inteceptor,
     multi : true}

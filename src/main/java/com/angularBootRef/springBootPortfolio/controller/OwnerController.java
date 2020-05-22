@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -26,7 +27,7 @@ public class OwnerController {
 	@PostMapping("/cars/{carId}/owners")
 	public Owner createOwner(@PathVariable (value = "carId") Long carId,
                              @Valid @RequestBody Owner owner) {
-		
+
 		return carService.findById(carId).map(car -> {
 			owner.setCar(car);
 			return ownerService.save(owner);
@@ -45,6 +46,7 @@ public class OwnerController {
 	public List<OwnerDto> findOwnerByCarId(@PathVariable Long carId) {
 		log.info("listOwnerByCarId for carId: " + carId);
 		final List<Owner> carOwners = this.ownerService.findByCarId(carId);
+
 
 		return this.ownerDtoConverter.convertToDto(carOwners);
 	}

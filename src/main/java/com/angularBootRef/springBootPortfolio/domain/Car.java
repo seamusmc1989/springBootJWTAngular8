@@ -35,8 +35,8 @@ public class Car extends AuditModel implements Serializable {
 	private String username;
 
 	//With bi-directional oneToOne the only way to enable lazy is to use byteCode optimizer plugin in your maven
-	@OneToOne(mappedBy = "car", fetch = FetchType.LAZY, cascade = CascadeType.ALL, optional = false)
-	private Review review;
+//	@OneToOne(mappedBy = "car", fetch = FetchType.LAZY, cascade = CascadeType.ALL, optional = false)
+//	private Review review;
 
 //	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = DateTimeFormatUtils.DATE_TIME_FORMAT)
 //	private LocalDateTime createdDate;

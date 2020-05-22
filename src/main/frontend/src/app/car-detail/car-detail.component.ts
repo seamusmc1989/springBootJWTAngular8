@@ -52,6 +52,26 @@ export class CarDetailComponent implements OnInit {
 
   }
 
+  viewCarReview(): void {
+    console.log('viewCarReview');
+  }
+
+  addCarReview(): void {
+    console.log('addCarReview for carId: ' + this.id);
+
+    this.dialogService.showAddReviewDialog(this.id).subscribe(
+      res => {
+        // if (res != null) {
+        //   console.log('res is: ' + res);
+        //   let newOwners: Owner[] = this.dataSourceOwner.data;
+        //   newOwners.push(res);
+        //   this.dataSourceOwner.data = newOwners;
+        // }
+      });
+
+  }
+
+
   addCarOwner(): void {
     console.log('addCarOwner for carId: ' + this.id);
 

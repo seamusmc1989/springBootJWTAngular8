@@ -8,8 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface OwnerRepository extends JpaRepository<Owner, Long> {
+public interface OwnerRepository extends JpaRepository<Owner, Long>, OwnerCustomRepository {
 
-    List<Owner> findAllByCar_Id(Long carId);
+//    List<Owner> findAllByCar_Id(Long carId);
 
 }

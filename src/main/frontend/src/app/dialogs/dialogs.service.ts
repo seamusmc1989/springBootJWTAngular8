@@ -5,6 +5,8 @@ import {Owner} from "./add-car-owner-dialog/owner.model";
 import {AddCarOwnerDialogComponent} from "./add-car-owner-dialog/add-car-owner-dialog.component";
 import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {Observable} from "rxjs";
+import {AddCarReviewDialogComponent} from "./add-car-review-dialog/add-car-review-dialog.component";
+import {Review} from "./add-car-review-dialog/review.model";
 
 
 @Injectable()
@@ -38,6 +40,21 @@ export class DialogsService {
     let dialogRef: MatDialogRef<AddCarOwnerDialogComponent>;
 
     dialogRef = this.dialog.open(AddCarOwnerDialogComponent, {
+      data: {
+        carId: carId
+      },
+      height: '70%',
+      width: '30%'
+    });
+
+    return dialogRef.afterClosed();
+  }
+
+  public showAddReviewDialog(carId :number): Observable<Review>{
+    console.log('carId for showAddReviewDialog in dialogs.service is: ' + carId);
+    let dialogRef: MatDialogRef<AddCarReviewDialogComponent>;
+
+    dialogRef = this.dialog.open(AddCarReviewDialogComponent, {
       data: {
         carId: carId
       },

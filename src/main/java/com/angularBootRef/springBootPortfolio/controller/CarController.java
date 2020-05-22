@@ -51,11 +51,8 @@ public class CarController {
 
 	@GetMapping("/findById/{carId}")
 	public CarDto findCarPathById(@PathVariable Long carId) {
-
-		log.info("logger info for argument ");
-
 		final Car result = carService.findById(carId).get();
-		log.info("tester.  logger info for argument " + result.getId());
+		log.info("logger info for argument " + result.getId());
 		return this.carDtoConverter.convertToDto(result);
 	}
 

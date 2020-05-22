@@ -63,8 +63,11 @@ public class CarControllerRestTest {
     public void before() {
 
         final Review review = new Review();
-        final Car car1 = new Car(1l, "BMW", "3series", "diesel", "auto", "user1", review);
-        final Car car2 = new Car(2l, "BMW", "4series", "petrol", "auto", "user1", review);
+//        final Car car1 = new Car(1l, "BMW", "3series", "diesel", "auto", "user1", review);
+//        final Car car2 = new Car(2l, "BMW", "4series", "petrol", "auto", "user1", review);
+        final Car car1 = new Car(1l, "BMW", "4series", "petrol", "auto", "user1");
+        final Car car2 = new Car(2l, "BMW", "4series", "petrol", "auto", "user1");
+
         this.carList.add(car1);
         this.carList.add(car2);
 

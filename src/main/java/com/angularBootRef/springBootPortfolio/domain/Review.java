@@ -1,8 +1,6 @@
 package com.angularBootRef.springBootPortfolio.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -10,7 +8,6 @@ import java.io.Serializable;
 @Table
 @AllArgsConstructor
 @NoArgsConstructor
-//@JsonIgnoreProperties(ignoreUnknown = true)
 @Getter
 @Setter
 @ToString
@@ -24,12 +21,8 @@ public class Review extends AuditModel implements Serializable {
 
     private Long rating;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @MapsId
     private Car car;
-
-//    @OneToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "car_id")
-//    private Car car;
 
 }

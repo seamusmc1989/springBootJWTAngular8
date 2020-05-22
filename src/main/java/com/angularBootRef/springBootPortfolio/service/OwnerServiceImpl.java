@@ -1,6 +1,7 @@
 package com.angularBootRef.springBootPortfolio.service;
 
 import com.angularBootRef.springBootPortfolio.domain.Owner;
+import com.angularBootRef.springBootPortfolio.domain.OwnerCarInfoDto;
 import com.angularBootRef.springBootPortfolio.repository.OwnerRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +18,7 @@ import java.util.Optional;
 @Transactional
 public class OwnerServiceImpl implements OwnerService {
 
-	@Autowired
+//	@Autowired
 	private OwnerRepository ownerRepository;
 
 	public List<Owner> list() {
@@ -39,8 +40,9 @@ public class OwnerServiceImpl implements OwnerService {
 	}
 
 	public List<Owner> findByCarId(Long carId) {
-		return	this.ownerRepository.findAllByCar_Id(carId);
-	}
 
+		return this.ownerRepository.findAllOwnersByCarIdCriteria(carId);
+//		return	this.ownerRepository.findAllByCar_Id(carId);
+	}
 
 }

@@ -1,0 +1,20 @@
+<form #appReviewForm="ngForm" (ngSubmit)="onSubmit()">
+  <mat-label>
+    Add New Review
+  </mat-label>
+  <br>
+  <mat-form-field class="firstName">
+    <input matInput placeholder="comment" id="comment" required [(ngModel)]="review.comment" name="comment"
+           #comment="ngModel">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="lastName">
+    <input matInput placeholder="rating" id="rating" required [(ngModel)]="review.rating" name="rating"
+           #rating="ngModel">
+  </mat-form-field>
+  <br>
+
+  <button type="submit" class="mat-raised-button" [disabled]="!appReviewForm.form.valid">OK</button>
+  <button type="button" mat-button
+          (click)="dialogRef.close()">Cancel</button>
+</form>

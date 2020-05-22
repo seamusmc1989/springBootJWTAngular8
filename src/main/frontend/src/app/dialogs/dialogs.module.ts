@@ -4,6 +4,7 @@ import { DialogsService } from './dialogs.service';
 import { FormsModule } from "@angular/forms";
 import { AddCarDialogComponent} from "./add-car-dialog/add-car-dialog.component";
 import { AddCarOwnerDialogComponent} from "./add-car-owner-dialog/add-car-owner-dialog.component";
+import { AddCarReviewDialogComponent} from "./add-car-review-dialog/add-car-review-dialog.component";
 import { CustomMaterialModule } from "../core/material.module";
 import {MatButtonModule} from "@angular/material/button";
 import {MatInputModule} from "@angular/material/input";
@@ -26,9 +27,9 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     MatToolbarModule,
     CustomMaterialModule,
   ],
-  declarations: [AddCarDialogComponent, AddCarOwnerDialogComponent],
-  exports: [AddCarDialogComponent, AddCarOwnerDialogComponent],
-  entryComponents: [AddCarDialogComponent, AddCarOwnerDialogComponent],
+  declarations: [AddCarDialogComponent, AddCarOwnerDialogComponent, AddCarReviewDialogComponent],
+  exports: [AddCarDialogComponent, AddCarOwnerDialogComponent, AddCarReviewDialogComponent],
+  entryComponents: [AddCarDialogComponent, AddCarOwnerDialogComponent, AddCarReviewDialogComponent],
   providers: [DialogsService]
 })
 export class DialogsModule { }
