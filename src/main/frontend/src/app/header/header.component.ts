@@ -20,18 +20,20 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.username = this.token.getUserToken();
-    console.log('nginit of the header');
-    console.log('this.router.url ' + this.router.url);
+    console.warn('nginit of the header');
+    console.warn('this.router.url ' + this.router.url);
 
     if(this.router.url == '/car') {
         this.isShowAddCar = true;
-        console.log('route is /car so show the button for add ');
+        console.warn('route is /car so show the button for add ');
     }
 
   }
 
   logout(): void {
     //TODO need to add /logout invalidate token url to rest endpoints
+    //delete the token...
+    this.token.signOut();
     this.router.navigate(['/login']);
   }
 

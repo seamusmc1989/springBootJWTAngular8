@@ -16,8 +16,6 @@ export class LoginComponent {
 
   username: string;
   password: string;
-
-  // added 05/04/18
   errorMessage: string;
 
   login(): void {

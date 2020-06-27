@@ -46,8 +46,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         } else {
             
         	logger.warn("couldn't find bearer string, will ignore the header");
-            logger.info("header is: " + header);
-            logger.info("header req is: " + req.toString());
+            logger.warn("header is: " + header);
+            logger.warn("header req is: " + req.toString());
             
         }
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
@@ -59,7 +59,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 //TODO review this setting roles.. seems to be wrong
                 UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN")));
                 authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(req));
-                logger.info("authenticated user " + username + ", setting security context");
+                logger.debug("authenticated user " + username + ", setting security context");
                 SecurityContextHolder.getContext().setAuthentication(authentication);
             }
         }

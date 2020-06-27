@@ -17,10 +17,11 @@ public class ReviewServiceImpl implements ReviewService{
 
     private ReviewRepository reviewRepository;
 
-    //TODO add is ifPresent
+    //TODO add is ifPresentElse Throw exception
     @Override
     public Optional<Review> findById(Long reviewId) {
-        log.info("findbyid.  logger info for argument " + reviewId );
+        log.info("findbyid logger info for argument " + reviewId );
+        log.info("ReviewServiceImpl.findById " + reviewId);
         Optional<Review> byId = this.reviewRepository.findById(reviewId);
         return byId;
     }
@@ -30,4 +31,6 @@ public class ReviewServiceImpl implements ReviewService{
         log.info("save for the reviewwww.  logger info for argument " + review.toString() );
         return this.reviewRepository.save(review);
     }
+
+
 }

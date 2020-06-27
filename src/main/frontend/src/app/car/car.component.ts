@@ -40,25 +40,6 @@ export class CarComponent implements OnInit {
       }
     );
 
-
-
-
-    //TODO need to decide if I want to finish this logic
-    this.ownerService.getOwners().subscribe(
-      data => {
-        console.log('data is: ' + data);
-        this.carOwners = data;
-      }
-    )
-
-    //TODO need to decide if i want to remove this or not...
-    this.carService.getCarsByOwnerId().subscribe(
-      data => {
-        console.log('data for getCarsByOnwerId is: ' + data);
-        //this.carOwners = data;
-      }
-    )
-
   }
 
   onRowClicked(row): void {
@@ -101,11 +82,6 @@ export class CarComponent implements OnInit {
     );
   }
 
-  logout(): void {
-    //TODO need to add /logout invalidate token url to rest endpoints
-    this.router.navigate(['/login']);
-  }
-
   //TODO this was for the select dropdown options.
   findCarsByOwner(): void{
     console.log('findCarsByOwner');
@@ -115,16 +91,5 @@ export class CarComponent implements OnInit {
         console.log('data is: ' + data);
       }
     )
-  }
-
-  public openAddNewCarDialog() {
-    this.dialogsService.showAddCarDialog().subscribe(
-      res => {
-        if (res != null) {
-          let newCars: Car[] = this.dataSource.data;
-          newCars.push(res);
-          this.dataSource.data = newCars;
-        }
-      });
   }
 }
